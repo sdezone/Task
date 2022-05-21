@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcClient";
+
+package qoniac;
+
+// The qoniac service definition.
+service Qoniac {
+  // Sends a qoniac
+  rpc CurrencyToWords (ConvertRequest) returns (ConvertReply);
+}
+
+// The request message containing the currency.
+message ConvertRequest {
+  string currency = 1;
+}
+
+// The response message containing the qoniacs.
+message ConvertReply {
+  string message = 1;
+}

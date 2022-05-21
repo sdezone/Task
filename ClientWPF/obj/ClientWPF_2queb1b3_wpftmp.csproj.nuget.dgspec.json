@@ -1,0 +1,183 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\akadir\\Source\\Repos\\QoniacTask\\ClientWPF\\ClientWPF.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\akadir\\Source\\Repos\\QoniacTask\\ClientWPF\\ClientWPF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akadir\\Source\\Repos\\QoniacTask\\ClientWPF\\ClientWPF.csproj",
+        "projectName": "ClientWPF",
+        "projectPath": "C:\\Users\\akadir\\Source\\Repos\\QoniacTask\\ClientWPF\\ClientWPF.csproj",
+        "packagesPath": "C:\\Users\\akadir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akadir\\Source\\Repos\\QoniacTask\\ClientWPF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\akadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\akadir\\Source\\Repos\\QoniacTask\\GrpcClientQoniacConsole\\GrpcClientQoniacConsole.csproj": {
+                "projectPath": "C:\\Users\\akadir\\Source\\Repos\\QoniacTask\\GrpcClientQoniacConsole\\GrpcClientQoniacConsole.csproj"
+              },
+              "C:\\Users\\akadir\\Source\\Repos\\QoniacTask\\QoniacBussinesLayer\\QoniacBussinesLayer.csproj": {
+                "projectPath": "C:\\Users\\akadir\\Source\\Repos\\QoniacTask\\QoniacBussinesLayer\\QoniacBussinesLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "System.ServiceModel.Federation": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\akadir\\Source\\Repos\\QoniacTask\\GrpcClientQoniacConsole\\GrpcClientQoniacConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akadir\\Source\\Repos\\QoniacTask\\GrpcClientQoniacConsole\\GrpcClientQoniacConsole.csproj",
+        "projectName": "GrpcClientQoniacConsole",
+        "projectPath": "C:\\Users\\akadir\\Source\\Repos\\QoniacTask\\GrpcClientQoniacConsole\\GrpcClientQoniacConsole.csproj",
+        "packagesPath": "C:\\Users\\akadir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akadir\\Source\\Repos\\QoniacTask\\GrpcClientQoniacConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\akadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            },
+            "Grpc.Core": {
+              "target": "Package",
+              "version": "[2.46.1, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.46.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.46.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\akadir\\Source\\Repos\\QoniacTask\\QoniacBussinesLayer\\QoniacBussinesLayer.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akadir\\Source\\Repos\\QoniacTask\\QoniacBussinesLayer\\QoniacBussinesLayer.csproj",
+        "projectName": "QoniacBussinesLayer",
+        "projectPath": "C:\\Users\\akadir\\Source\\Repos\\QoniacTask\\QoniacBussinesLayer\\QoniacBussinesLayer.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

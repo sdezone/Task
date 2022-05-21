@@ -1,0 +1,6 @@
+C:\Users\akadir\Source\Repos\QoniacTask\ServerGrpcService\obj\Debug\net6.0\ServerGrpcService.csproj.AssemblyReference.cache
+C:\Users\akadir\Source\Repos\QoniacTask\ServerGrpcService\obj\Debug\net6.0\ServerGrpcService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akadir\Source\Repos\QoniacTask\ServerGrpcService\obj\Debug\net6.0\ServerGrpcService.AssemblyInfoInputs.cache
+C:\Users\akadir\Source\Repos\QoniacTask\ServerGrpcService\obj\Debug\net6.0\ServerGrpcService.AssemblyInfo.cs
+C:\Users\akadir\Source\Repos\QoniacTask\ServerGrpcService\obj\Debug\net6.0\ServerGrpcService.csproj.CoreCompileInputs.cache
+C:\Users\akadir\Source\Repos\QoniacTask\ServerGrpcService\obj\Debug\net6.0\ServerGrpcService.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,2 @@
+obj\Debug\Protos/Qoniac.cs \
+obj\Debug\Protos/QoniacGrpc.cs: Protos/qoniac.proto

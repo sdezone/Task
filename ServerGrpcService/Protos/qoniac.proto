@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "QoniacServerGrpcService";
+
+package qoniac;
+
+// The greeting service definition.
+service CurrencyToWords {
+  // Sends a greeting
+  rpc CurrencyToWords (CurrencyToWordsRequest) returns (CurrencyToWordsReply);
+}
+
+// The request message containing the user's name.
+message CurrencyToWordsRequest {
+  string currency = 1;
+}
+
+// The response message containing the greetings.
+message CurrencyToWordsReply {
+  string message = 1;
+}

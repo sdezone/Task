@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "j0eRwfe0QqTvHuT2bF/fsgI+SEz46GSJbJRMOqmQzeUqmRcD2G5v/WXa8PrajQYjSn/X/ni8tKtJf21OhOEkyw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\akadir\\Source\\Repos\\QoniacTask\\GrpcClientQoniacConsole\\GrpcClientQoniacConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\akadir\\.nuget\\packages\\google.protobuf\\3.20.1\\google.protobuf.3.20.1.nupkg.sha512",
+    "C:\\Users\\akadir\\.nuget\\packages\\grpc.core\\2.46.1\\grpc.core.2.46.1.nupkg.sha512",
+    "C:\\Users\\akadir\\.nuget\\packages\\grpc.core.api\\2.46.1\\grpc.core.api.2.46.1.nupkg.sha512",
+    "C:\\Users\\akadir\\.nuget\\packages\\grpc.net.client\\2.46.0\\grpc.net.client.2.46.0.nupkg.sha512",
+    "C:\\Users\\akadir\\.nuget\\packages\\grpc.net.common\\2.46.0\\grpc.net.common.2.46.0.nupkg.sha512",
+    "C:\\Users\\akadir\\.nuget\\packages\\grpc.tools\\2.46.1\\grpc.tools.2.46.1.nupkg.sha512",
+    "C:\\Users\\akadir\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\akadir\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

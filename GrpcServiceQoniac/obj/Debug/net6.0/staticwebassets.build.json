@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YH2UkjqX394JGXHDWt88VfN20yJTDX8I5o+uog+JLKg=",
+  "Source": "GrpcServiceQoniac",
+  "BasePath": "_content/GrpcServiceQoniac",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
